@@ -13,6 +13,6 @@ public class RemoveDuplicatesfromSortedArray {
 public static void main(String[] args) {
   RemoveDuplicatesfromSortedArray r = new RemoveDuplicatesfromSortedArray();
   int[] nums = {1,3,4,3,6};
-  r.removeDuplicates(nums);
+ System.out.println(r.removeDuplicates(nums));
 }
 }
